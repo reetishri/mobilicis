@@ -1,0 +1,344 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Intro Section Styles */
+.intro {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Featured Jobs Section Styles */
+.featured-jobs {
+    padding: 50px 0;
+}
+
+.featured-jobs h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.featured-jobs .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-jobs .job {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.featured-jobs .job h3 {
+    margin-top: 0;
+}
+
+.featured-jobs .job p {
+    margin-bottom: 10px;
+}
+
+.featured-jobs .job .btn {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.featured-jobs .job .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Job Filters Section Styles */
+.job-filters {
+    padding: 50px 0;
+}
+
+.job-filters h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.job-filters .form-group {
+    margin-bottom: 20px;
+}
+
+.job-filters label {
+    font-weight: bold;
+}
+
+.job-filters input[type="text"],
+.job-filters select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.job-filters .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-filters .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Job Listings Section Styles */
+.job-listings {
+    padding: 50px 0;
+}
+
+.job-listings h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.job-listings .job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.job-listings .job-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.job-listings .job-card h3 {
+    margin-top: 0;
+}
+
+.job-listings .job-card p {
+    margin-bottom: 10px;
+}
+
+.job-listings .job-card .btn {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.job-listings .job-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Job Pagination Section Styles */
+.job-pagination {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.job-pagination .pagination {
+    list-style: none;
+    padding: 0;
+}
+
+.job-pagination .pagination li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.job-pagination .pagination li a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.job-pagination .pagination li a:hover {
+    background-color: #0056b3;
+}
+
+/* About Japan Section Styles */
+.about-japan {
+    padding: 50px 0;
+}
+
+.about-japan h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-japan .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-japan .about-item {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.about-japan .about-item h3 {
+    margin-top: 0;
+}
+
+.about-japan .about-item p {
+    margin-bottom: 10px;
+}
+
+.about-japan .about-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom:10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    border-image-width: auto;
+}
+

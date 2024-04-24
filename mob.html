@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Opportunities in Japan</title>
+    <link rel="stylesheet" href="mob.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Header content goes here -->
+           
+                    <div class="logo">
+                        <a href=""><img src=" C:\Users\Asus\Downloads\BEST laptops for students1674455318067.jpg" alt="Work Opportunities in Japan"></a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Job Listings</a></li>
+                            <li><a href="">About Japan</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+        </div>
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="jp">Japanese</option>
+            </select>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Work Opportunities in Japan</h1>
+                <p>Discover exciting job opportunities in Japan</p>
+                <a href="mob.html" class="btn">Explore Jobs</a>
+            </div>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="container">
+            <h2>About Work Opportunities in Japan</h2>
+            <p>Welcome to Work Opportunities in Japan, your gateway to discovering exciting career prospects in the Land of the Rising Sun. Whether you're seeking employment in technology, finance, education, or any other field, we provide comprehensive listings of job opportunities across Japan.</p>
+            <p>Explore our curated job listings, learn about Japan's unique work culture, visa requirements, and living essentials. Begin your journey towards a fulfilling career and vibrant lifestyle in Japan today!</p>
+        </div>
+    </section>
+    <!--Featured job listings section highlighting some of the top opportunities-->  
+    <section class="featured-jobs">
+        <div class="container">
+            <h2>Featured Job Listings</h2>
+            <div class="job-list">
+                <div class="job">
+                    <h3>Software Engineer</h3>
+                    <p>Company: TechJapan Inc.</p>
+                    <p>Location: Tokyo</p>
+                    <p>Description: Join our innovative team and work on cutting-edge projects in the heart of Tokyo.</p>
+                    <a href="#" class="btn">Apply Now</a>
+                </div>
+                <div class="job">
+                    <h3>English Teacher</h3>
+                    <p>Company: ABC English School</p>
+                    <p>Location: Osaka</p>
+                    <p>Description: Teach English to enthusiastic students in a dynamic and supportive environment.</p>
+                    <a href="#" class="btn">Apply Now</a>
+                </div>
+                <main>
+               <!--- Search bar and filters for job listings (by industry, location, salary, etc.).-->
+               <section class="job-filters">
+                <div class="container">
+                    <h2>Search Job Listings</h2>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <label for="keywords">Keywords:</label>
+                            <input type="text" id="keywords" name="keywords" placeholder="Enter keywords...">
+                        </div>
+                        <div class="form-group">
+                            <label for="industry">Industry:</label>
+                            <select id="industry" name="industry">
+                                <option value="">All Industries</option>
+                                <option value="it">Information Technology</option>
+                                <option value="finance">Finance</option>
+                                <option value="education">Education</option>
+                                <!-- Add more options for different industries -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <select id="location" name="location">
+                                <option value="">All Locations</option>
+                                <option value="tokyo">Tokyo</option>
+                                <option value="osaka">Osaka</option>
+                                <option value="kyoto">Kyoto</option>
+                                <!-- Add more options for different locations -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="salary">Salary:</label>
+                            <input type="text" id="salary" name="salary" placeholder="Enter salary range...">
+                        </div>
+                        <button type="submit" class="btn">Search</button>
+                    </form>
+                </div>
+            </section>
+
+            <!--Grid layout of job cards displaying key information such as job title, company, location, and a brief description.-->
+            <section class="job-listings">
+                <div class="container">
+                    <h2>Job Listings</h2>
+                    <div class="job-cards">
+                        <div class="job-card">
+                            <h3>Software Engineer</h3>
+                            <p>Company: TechJapan Inc.</p>
+                            <p>Location: Tokyo</p>
+                            <p>Description: Join our innovative team and work on cutting-edge projects in the heart of Tokyo.</p>
+                            <a href="#" class="btn">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>English Teacher</h3>
+                            <p>Company: ABC English School</p>
+                            <p>Location: Osaka</p>
+                            <p>Description: Teach English to enthusiastic students in a dynamic and supportive environment.</p>
+                            <a href="#" class="btn">Apply Now</a>
+                        </div>
+                        <!-- Add more job cards as needed -->
+                    </div>
+                </div>
+            </section>
+            
+            <!--Pagination or infinite scroll for easy browsing through multiple job listings.-->
+            <section class="job-pagination">
+                <div class="container">
+                    <ul class="pagination">
+                        <li><a href="#" class="prev">&laquo; Previous</a></li>
+                        <li><a href="#" class="page">1</a></li>
+                        <li><a href="#" class="page">2</a></li>
+                        <li><a href="#" class="page">3</a></li>
+                        <li><a href="#" class="next">Next &raquo;</a></li>
+                    </ul>
+                </div>
+                <div class="job-card">
+                    <h3>Software Engineer</h3>
+                    <p>Company: TechJapan Inc.</p>
+                    <p>Location: Tokyo</p>
+                    <p>Description: Join our innovative team and work on cutting-edge projects in the heart of Tokyo.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn apply-btn">Apply Now</a>
+                        <a href="#" class="btn details-btn">View Details</a>
+                    </div>
+                </div>
+            </section>
+            <!--expaiin-->
+            
+            <section class="about-japan">
+                <div class="container">
+                    <h2>About Japan</h2>
+                    <div class="about-content">
+                        <div class="about-item">
+                            <h3>Culture</h3>
+                            <p>Japan boasts a rich cultural heritage spanning centuries, from traditional arts such as tea ceremonies and kabuki theater to modern pop culture phenomena like anime and manga.</p>
+                        </div>
+                        <div class="about-item">
+                            <h3>Economy</h3>
+                            <p>Japan is a global economic powerhouse, known for its advanced technology, automotive industry, and strong export-oriented economy. Tokyo, the capital city, is a major financial center.</p>
+                        </div>
+                        <div class="about-item">
+                            <h3>Work Environment</h3>
+                            <p>Japanese work culture emphasizes dedication, teamwork, and attention to detail. Companies often prioritize long-term employment and offer benefits like bonuses and career development opportunities.</p>
+                        </div>
+
+          
+                <div class="about-item">
+                    <h3>Business Culture</h3>
+                    <p>Japanese business culture places a strong emphasis on hierarchy, respect, and harmony. Business meetings often start with exchanging business cards (meishi) and bowing as a sign of respect.</p>
+                </div>
+                
+                <!-- Living in Japan -->
+                <div class="about-item">
+                    <h3>Living in Japan</h3>
+                    <p>Living in Japan offers a unique blend of traditional and modern lifestyles. From bustling city centers to serene rural areas, Japan provides diverse living environments with excellent infrastructure and safety.</p>
+                </div>
+                
+                <!-- Visa Requirements -->
+                <div class="about-item">
+                    <h3>Visa Requirements</h3>
+                    <p>Visa requirements for working in Japan vary depending on factors such as nationality, type of employment, and intended duration of stay. Common visa types include work visas, student visas, and working holiday visas.</p>
+                </div>
+                
+                <!-- Add more subsections as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!--images-->
+    <section class="about-japan">
+        <div class="container">
+            <h2>About Japan</h2>
+            <div class="about-content">
+                <!-- Business Culture -->
+                <div class="about-item">
+                    <img src="C:\Users\Asus\Downloads\blog-hero-business-culture.jpeg" alt="Business Culture">
+                    <h3>Business Culture</h3>
+                    <p>Japanese business culture places a strong emphasis on hierarchy, respect, and harmony. Business meetings often start with exchanging business cards (meishi) and bowing as a sign of respect.</p>
+                </div>
+                
+                <!-- Living in Japan -->
+                <div class="about-item">
+                    <img src="C:\Users\Asus\Downloads\living_in_japan.jpg" alt="Living in Japan">
+                    <h3>Living in Japan</h3>
+                    <p>Living in Japan offers a unique blend of traditional and modern lifestyles. From bustling city centers to serene rural areas, Japan provides diverse living environments with excellent infrastructure and safety.</p>
+                </div>
+                
+                <!-- Visa Requirements -->
+                <div class="about-item">
+                    <img src="C:\Users\Asus\Downloads\woman-applying-for-visa-in-us-immigration-office.jpg" alt="Visa Requirements">
+                    <h3>Visa Requirements</h3>
+                    <p>Visa requirements for working in Japan vary depending on factors such as nationality, type of employment, and intended duration of stay. Common visa types include work visas, student visas, and working holiday visas.</p>
+                </div>
+                
+                <!-- Add more subsections with images as needed -->
+            </div>
+        </div>
+    </section>
+        <!-- Main content (home, job listings, about Japan pages) goes here -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- Footer content goes here -->
+            <section class="contact-info">
+                <div class="container">
+                    <h2>Contact Information</h2>
+                    <p>If you have any inquiries or need assistance, feel free to reach out to us:</p>
+                    <ul>
+                        <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Phone: +123-456-7890</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--links Links to social media profiles.-->
+            <section class="social-media">
+                <div class="container">
+                    <h2>Connect with Us</h2>
+                    <ul>
+                        <li>  <a href="https://www.facebook.com/example" target="_blank"><img src="C:\Users\Asus\Downloads\images (1).jpeg" alt="Facebook"></a></li>
+                        <li> <a href="https://twitter.com/example" target="_blank"><img src="C:\Users\Asus\Downloads\images (2).jpeg" alt="Twitter"></a></li>
+                      
+                        <!-- Add more social media links as needed -->
+                    </ul>
+                </div>
+            </section>
+            <!--Copyright information and privacy policy.html code-->
+            <footer class="footer">
+                <div class="container">
+                    <p>&copy; 2024 Work Opportunities in Japan. All rights reserved.</p>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </div>
+            </footer>
+            
+
+        </div>
+    </footer>
+
+    <script src="mob.js"></script>
+</body>
+</html>
